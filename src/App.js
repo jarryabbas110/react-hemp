@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
-// import Featured from "./components/Featured/Featured";
+import Featured from "./components/Featured/Featured";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Scrollup from "./components/Scrollup";
@@ -17,7 +17,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
-        {/* <Featured /> */}
+        <Featured />
         <Products />
         <Review />
 
