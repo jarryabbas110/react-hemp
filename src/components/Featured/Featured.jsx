@@ -46,8 +46,8 @@ const Featured = () => {
           disableOnInteraction: false,
         }}
         style={{
-          "--swiper-navigation-color": "green",
-          "--swiper-pagination-color": "green",
+          "--swiper-navigation-color": " rgb(238, 37, 37)",
+          "--swiper-pagination-color": " rgb(238, 37, 37)",
         }}
         pagination={{
           clickable: true,

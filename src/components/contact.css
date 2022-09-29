@@ -19,7 +19,7 @@
 }
 
 .contact__card{
-    background-color: rgb(175, 223, 175);
+    background-color: #d8e484;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     border-radius: 0.75rem;
@@ -72,6 +72,11 @@
     position: relative;
     margin-bottom: var(--mb-2);
     height: 4rem;
+}
+
+.btn3 {
+    background-color: rgb(238, 37, 37);
+   
 }
 
 .contact__form-input {

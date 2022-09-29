@@ -4,19 +4,19 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   width: 80%;
+  
 }
 
 .product__item{
-    background-color:rgb(233, 235, 233);
     border-radius: 1.5rem;
     padding: 1.3rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .product__item:hover {
     border-color: black;
-    background: rgb(184, 241, 184);
 
 }
 
@@ -27,7 +27,7 @@
   display: block;
   border: 1px solid black;
   color: black;
-  background-color: transparent;
+  background-color: rgb(238, 37, 37);
   z-index: 2;
   left: 50%;
   transform: translate(-50%);
@@ -162,6 +162,41 @@
     -webkit-transition-delay: .2s;
             transition-delay: .2s;
   }
+
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem #404040 solid;
+    background-color: transparent;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: rgb(238, 37, 37);
+  }
+
+  .btn svg {
+    stroke: currentColor;
+    fill: transparent;
+    -webkit-transition-delay: .2s;
+            transition-delay: .2s;
+    width: 35px;
+    height: 35px;
+  }
+
+  .review {
+    font-size: 0.1rem;
+    width: 100px;
+    height: 20px;
+    
+    
+  }
+ 
+
 
 /*==================Medium devices==============*/
 @media screen and (max-width: 1024px){
