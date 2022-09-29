@@ -18,7 +18,7 @@
 }
 
 .about__box {
-    background-color: #d8e484;
+    background-color: #A3CB52;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
@@ -44,7 +44,7 @@
 .about__description {
     padding: 0 15rem 0 0;
     margin-bottom: var(--mb-2);
-    color: rgb(227, 25, 25);
+    color: var(--title-color);
 }
 
 

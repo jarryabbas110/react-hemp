@@ -12,6 +12,10 @@
     margin-bottom: var(--mb-1-5);
 }
 
+.contact__card a {
+    color: #E84025;
+}
+
 .contact__info {
     display: grid;
     row-gap: 1rem;
@@ -19,7 +23,7 @@
 }
 
 .contact__card{
-    background-color: #d8e484;
+    background-color: #A3CB52;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     border-radius: 0.75rem;
@@ -62,6 +66,7 @@
 
 .contact__button:hover .contact__button-icon{
     transform: translate(0.25rem);
+    /* color: #E84025; */
 }
 
 .contact__form {
@@ -75,8 +80,13 @@
 }
 
 .btn3 {
-    background-color: rgb(238, 37, 37);
+    background-color: #de796a;
    
+}
+.btn3:hover {
+    background-color: #E84025;
+   color: black;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .contact__form-input {

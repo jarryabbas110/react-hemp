@@ -57,7 +57,7 @@ const Review = () => {
           slideShadows: true,
         }}
         style={{
-          "--swiper-pagination-color": "rgb(238, 37, 37)",
+          "--swiper-pagination-color": "#E84025",
         }}
         pagination={true}
         modules={[Autoplay, EffectCoverflow, Pagination]}
@@ -69,7 +69,8 @@ const Review = () => {
               className="review__card"
               key={id}
               style={{
-                background: "#d8e484",
+                background: "#A3CB52",
+                color: "white",
               }}
             >
               <img src={picture} alt="" className="review__img" />

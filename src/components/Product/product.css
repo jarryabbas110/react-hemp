@@ -27,7 +27,7 @@
   display: block;
   border: 1px solid black;
   color: black;
-  background-color: rgb(238, 37, 37);
+  background-color: transparent;
   z-index: 2;
   left: 50%;
   transform: translate(-50%);
@@ -39,6 +39,9 @@
   backdrop-filter: blur(15px);
 }
 
+.load__btn:hover {
+  background-color: #E84025;
+}
 .product__item-image{
     border-radius: 0.5rem;
     overflow: hidden;
@@ -176,7 +179,7 @@
   }
 
   .btn:hover{
-    background-color: rgb(238, 37, 37);
+    background-color: #E84025;
   }
 
   .btn svg {

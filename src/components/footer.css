@@ -1,5 +1,5 @@
 .footer {
-    background-color: #d8e484;
+    background-color: #A3CB52;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -17,7 +17,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color-dark);
+    color: #E84025;
 }
 
 .footer__list{
@@ -43,7 +43,7 @@
 }
 
 .footer__social-link:hover {
-    background-color: var(--title-color-dark);
+    background-color: #E84025;
 
 }
 
